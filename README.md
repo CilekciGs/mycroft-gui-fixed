@@ -34,7 +34,7 @@ The interactive Installation script supports installation on KDE Neon, K/Ubuntu 
 1) Open a terminal session and paste:
    
    ```@bash
-    cd ~ && git clone https://github.com/mycroftai/mycroft-core && cd mycroft-core -fixed && bash dev_setup.sh && cd ~ && git clone https://github.com/cilekcigs/mycroft-gui-fixed && cd mycroft-gui-fixed && bash dev_setup.sh
+    cd ~ && git clone https://github.com/MycroftAI/mycroft-core && cd mycroft-core && bash dev_setup.sh && cd ~/ && git clone https://github.com/cilekcigs/mycroft-gui-fixed && cd mycroft-gui-fixed && bash dev_setup.sh
    ```
 
 2) Run Mycroft GUI:
