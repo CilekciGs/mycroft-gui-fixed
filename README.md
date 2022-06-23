@@ -31,16 +31,13 @@ The interactive Installation script supports installation on KDE Neon, K/Ubuntu 
 
 
 
-1) Fetch Repository and Run Installation Script 
+1) Open a terminal session and paste:
    
    ```@bash
-    cd ~
-    git clone https://github.com/mycroftai/mycroft-gui
-    cd mycroft-gui
-    bash dev_setup.sh    
+    cd ~ && git clone https://github.com/cilekcigs/mycroft-gui-fixed && cd mycroft-gui-fixed && bash dev_setup.sh
    ```
 
-2) Running Mycroft GUI:
+2) Run Mycroft GUI:
    
    ```@bash
    mycroft-gui-app
@@ -54,13 +51,10 @@ The interactive Installation script supports installation on KDE Neon, K/Ubuntu 
 
 3) Open VirtualBox and create a system installation
 
-4) Within the VM, open a terminal session and type:
+4) Within the VM, open a terminal session and paste:
    
    ```@bash
-    cd ~
-    git clone https://github.com/mycroftai/mycroft-gui
-    cd mycroft-gui
-    bash dev_setup.sh
+    cd ~ && git clone https://github.com/cilekcigs/mycroft-gui-fixed && cd mycroft-gui-fixed && bash dev_setup.sh
    ```
 
 5) (Optional) Customize Plasma settings for GUI debugging purposes
@@ -69,7 +63,7 @@ The interactive Installation script supports installation on KDE Neon, K/Ubuntu 
      - Click the > icon, type: Screen Locking
      - Untick "Lock screen automatically after:"
      - Click OK
-6. Running Mycroft GUI:
+6. Run Mycroft GUI:
    
    ```@bash
    mycroft-gui-app
