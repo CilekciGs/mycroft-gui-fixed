@@ -40,7 +40,7 @@ The interactive Installation script supports installation on KDE Neon, K/Ubuntu 
 2) Run Mycroft GUI:
    
    ```@bash
-   mycroft-gui-app
+   bash ~/mycroft-core/start-mycroft.sh all && mycroft-gui-app
    ```
 
 ### Virtual Environment Setup Instructions
